@@ -17,6 +17,7 @@ ol {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 img {
   vertical-align: middle;
@@ -43,6 +44,7 @@ img {
   --white_color: #ffffff;
   --button_color: #fcd980;
   --section_banner_color: #f4f6fc;
+  --icon_color: #2405f2;
 }
 /* ============================================================================
                                 Navbar css start
@@ -160,7 +162,94 @@ img {
 /* ============================================================================
                                 Work css Starts
 =============================================================================== */
+/* Left text */
 
+#work_part {
+  padding: 128px 0;
+  background-color: var(--section_banner_color);
+}
+
+#work_part .work_part_left_text h2 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#work_part .work_part_left_text p {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  /* padding-right: 20px; */
+}
+
+#work_part .work_part_left_text a {
+  color: var(--icon_color);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#work_part .work_part_left_text i {
+  color: var(--icon_color);
+}
+
+/* right part */
+
+#work_part .strategy h2 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+#work_part .strategy p {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
 /* ============================================================================
                                 Work css ends
+=============================================================================== */
+
+/* ============================================================================
+                                View project css starts
+=============================================================================== */
+/* head part */
+#view_project_part .head_text {
+  margin-bottom: 64px;
+}
+
+#view_project_part h2 {
+  color: var(--secondary_color);
+
+  /* Heading 2 */
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+#view_project_part a {
+  color: var(--secondary_color);
+
+  /* Label 2 */
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#view_project_part i {
+  color: var(--secondary_color);
+}
+
+/* ============================================================================
+                                View project css ends
 =============================================================================== */
