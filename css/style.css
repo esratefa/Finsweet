@@ -135,6 +135,7 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
+  margin-bottom: 10px;
 }
 #navbar_part .view_work a:hover {
   color: var(--white_color);
@@ -225,6 +226,8 @@ img {
 /* head part */
 #view_project_part .head_text {
   margin-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #view_project_part h2 {
@@ -250,6 +253,284 @@ img {
   color: var(--secondary_color);
 }
 
+/*large images & overlay */
+
+#view_project_part .big_image {
+  overflow: hidden;
+}
+
+#view_project_part .overlay {
+  top: 0;
+  left: -50%;
+  width: 50%;
+  height: 100%;
+  background-color: #1c1e53;
+  opacity: 0.7;
+
+  /*transiotion*/
+
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+
+#view_project_part .big_image:hover .overlay {
+  left: 0%;
+}
+
+#view_project_part .overlay h2 {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+#view_project_part .overlay p {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+#view_project_part .overlay a {
+  color: var(--button_color);
+
+  /* Body 2 */
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#view_project_part .overlay a i {
+  color: #fcd980;
+}
+
+/* small image overlay */
+
+#view_project_part .overlay_small_img1 {
+  overflow: hidden;
+}
+#view_project_part .overlay .overlay_text {
+  position: absolute;
+  bottom: 14%;
+  left: 13%;
+}
+#view_project_part .overlay_small_img1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1e53;
+  opacity: 0.7;
+}
+
+#view_project_part .overlay_small_img1 .small_image_text {
+  padding-left: 58px;
+  padding-top: 129px;
+}
+
+#view_project_part .overlay_small_img1 .small_image_text h3 {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+#view_project_part .overlay_small_img1 .small_image_text a {
+  color: var(--button_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 45px;
+}
+#view_project_part .overlay_small_img1 .small_image_text i {
+  color: #fcd980;
+}
+
 /* ============================================================================
                                 View project css ends
+=============================================================================== */
+
+/* ============================================================================
+                                Feature css starts
+=============================================================================== */
+#feature_part {
+  background-color: var(--section_banner_color);
+  padding: 128px 0;
+}
+
+#feature_part .head_text {
+  text-align: center;
+}
+#feature_part .head_text h5 {
+  color: var(--secondary_color);
+
+  /* Label 2 */
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+#feature_part .head_text h1 {
+  color: var(--secondary_color);
+
+  /* Heading 2 */
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 47px;
+}
+
+/* list of feature */
+
+#feature_part .box1 {
+  background: var(--white_color);
+  padding-top: 58px;
+  padding-left: 48px;
+  width: 405px;
+  height: 316px;
+}
+
+#feature_part .box1:hover {
+  border-radius: 10px;
+  background: #fff;
+
+  /* Shadow */
+  box-shadow: 0px 6px 35px 0px #00000014;
+}
+
+#feature_part .box1 i {
+  color: var(--icon_color);
+  padding-bottom: 23px;
+}
+
+#feature_part .box1 h3 {
+  color: var(--secondary_color);
+
+  /* Heading 6 */
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+#feature_part .box1 p {
+  color: var(--secondary_color);
+
+  /* Body 1 */
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+/* ============================================================================
+                                Feature css ends
+=============================================================================== */
+
+/* ============================================================================
+                                Client css Starts
+=============================================================================== */
+
+/* left text */
+
+#client_part {
+  background-color: #f4f6fc;
+  padding: 131px 0;
+  border: 1px solid #b9b3b3;
+}
+
+#client_part .client_left_text h2 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#client_part .client_left_text p {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-top: 16px;
+}
+
+/* right text */
+
+#client_part .client_right_text h3 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+#client_part .client_right_text .d-flex {
+  padding-top: 48px;
+}
+#client_part .client_right_text .d-flex picture img {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+#client_part .client_right_text .client_image_text {
+  padding-left: 10px;
+}
+#client_part .client_right_text .client_image_text h5 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#client_part .client_right_text .client_image_text p {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* ============================================================================
+                                Client css ends
+=============================================================================== */
+/* ============================================================================
+                                FAQ css ends
+=============================================================================== */
+
+#FAQ_part .left_text h3 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#FAQ_part .left_text a {
+  color: var(--icon_color);
+  text-align: center;
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 16px;
+}
+/* ============================================================================
+                                FAQ css ends
 =============================================================================== */
