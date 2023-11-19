@@ -977,12 +977,12 @@ img {
 }
 
 #Footer_end .footer_end_right {
-  margin-left: 115px;
+  margin-left: 135px;
 }
 
 #Footer_end .footer_end_right ul {
   display: flex;
-  column-gap: 50px;
+  column-gap: 45px;
 }
 
 #Footer_end .footer_end_right ul li a {
