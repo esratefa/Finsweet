@@ -249,7 +249,7 @@
               <div class="col-lg-12">
                 <div class="small_img2">
                   <picture>
-                    <img src="./images/Card3.jpg" alt="Card3.jpg">
+                    <img src="./images/Card3.jpg" alt="Card3.jpg" class="img-fluid">
                   </picture>
                 </div>
                 
@@ -345,7 +345,7 @@
 
         <div class="d-flex">
           <picture>
-            <img src="./images/client.png" alt="client.png" title="happy client">
+            <img src="./images/client.png" alt="client.png" title="happy client" class="img-fluid">
           </picture>
         
         <div class="client_image_text">
@@ -374,7 +374,92 @@
               <a href="#">Contact us for more info</a>
             </div>
           </div>
-          <div class="col-lg-8"></div>
+
+          <!-- Accordion part -->
+
+          <div class="col-lg-8">
+            <div class="accordion_part">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span>01</span>
+                      How much time does it take?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body custom_body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <span>02</span>
+                      What is your class naming convention?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body custom_body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      <span>03</span>
+                      How do you communicate?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body custom_body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      <span>04</span>
+                      I have a bigger project. Can you handle it?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body custom_body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      <span>05</span>
+                      What is your class naming convention?
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body custom_body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+          </div>
         </div>
       </div>
 
@@ -382,6 +467,226 @@
     <!-- ====================================================================
                                 FAQ part html ends
     ========================================================================= -->
+
+<!-- ====================================================================
+                                inquiry part html starts
+    ========================================================================= -->
+
+<section id="inquiry_part">
+  <div class="container p-0">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="inquiry_image">
+          <picture>
+            <img src="./images/inquiry_img.jpg" alt="inquiry_img.jpg" class="img-fluid">
+          </picture>
+          <div class="overlay_inquiry_part">
+            <div class="overlay_text">
+              <h3>Building stellar<br> websites for<br> early startups</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua ut enim.</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="inquiry_right_part">
+          <div class="right_text">
+            <h3>Send inquiry</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <input type="name" class="form-control" id="name" placeholder="Your Name">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            <input type="url" class="form-control input3" id="url" placeholder="Paste your Figma design URL">
+
+           
+              <a href="#">Send an Inquiry</a>
+
+            <div class="get_in_touch">
+              <a href="#">Get in touch with us <i class="fa-solid fa-arrow-right-long ps-3"></i></a>
+              
+           
+          </div>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- ====================================================================
+                               inquiry part html ends
+    ========================================================================= -->
+
+    <!-- ====================================================================
+                               blog part html starts
+    ========================================================================= -->
+<section id="Blog_part">
+  <div class="container">
+    <div class="row">
+      <div class="blog_text">
+        <h3>Our blog</h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_details">
+          <picture>
+            <img src="./images/blog_1.jpg" alt="blog_1.jpg" title="blog image" class="img-fluid">
+          </picture>
+          <h6>19 Jan 2022</h6>
+          <h5>How one Webflow user grew his<br> single person consultancy from<bnr></bnr> $0-100K in 14 months</h5>
+          <p>See how pivoting to Webflow changed one<br> person’s sales strategy and allowed him to attract</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right-long ps-2 pt-1"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_details">
+          <picture>
+            <img src="./images/blog_2.png" alt="blog_2.jpg" title="blog image" class="img-fluid">
+          </picture>
+          <h6>19 Jan 2022</h6>
+          <h5>How one Webflow user grew his<br> single person consultancy from<bnr></bnr> $0-100K in 14 months</h5>
+          <p>See how pivoting to Webflow changed one<br> person’s sales strategy and allowed him to attract</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right-long ps-2 pt-1"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_details">
+          <picture>
+            <img src="./images/blog_3.png" alt="blog_3.jpg" title="blog image" class="img-fluid">
+          </picture>
+          <h6>19 Jan 2022</h6>
+          <h5>How one Webflow user grew his<br> single person consultancy from<bnr></bnr> $0-100K in 14 months</h5>
+          <p>See how pivoting to Webflow changed one<br> person’s sales strategy and allowed him to attract</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right-long ps-2 pt-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ====================================================================
+                               blog part html ends
+    ========================================================================= -->
+
+    <!-- ====================================================================
+                               Footer part html ends
+    ========================================================================= -->
+    <!-- To set telephone number use "tel:phone_number" in anchor tag-->
+
+<section id="footer_part">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="footer_left_side">
+          <picture>
+            <img src="./images/footer_logo.jpg" alt="footer_logo.jpg" title="Logo" class="img-fluid">
+          </picture>
+          <p>We are always open to discuss your project and<br> improve your online presence.</p>
+
+          <div class="footer_contact d-flex">
+            <div class="email">
+              <ul>
+                <li>
+                  <a href="#">Email me at</a>
+                </li>
+                <li>
+                  <a href="#">contact@website.com</a>
+                </li>
+              </ul>
+              
+            </div>
+            <div class="call">
+              <ul>
+                <li>
+                  <a href="#">Call us</a>
+                </li>
+                <li>
+                  <a href="tel:0927 6277 28525">0927 6277 28525</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-6">
+        <div class="footer_right_side">
+          <h3>Lets Talk!</h3>
+          <p>We are always open to discuss your project,<br> improve your online presence and help with your<br> UX/UI design challenges.</p>
+
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+
+    <!-- ====================================================================
+                               Footer part html ends
+    ========================================================================= -->
+ <!-- ====================================================================
+                               Footer end part html starts
+    ========================================================================= -->
+    <section id="Footer_end">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer_end_left">
+              <p>Copyright 2022, Finsweet.com</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer_end_right">
+              
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link" href="#">FAQ</a>
+                      <a class="nav-link" href="#">Blog</a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav> -->
+
+     <!-- ====================================================================
+                               Footer end part html ends
+    ========================================================================= -->
+
+    
 
     <script src="./js/main.js"></script>
     <script src="./js/bootstrap.min.js"></script>

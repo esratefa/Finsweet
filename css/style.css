@@ -45,6 +45,7 @@ img {
   --button_color: #fcd980;
   --section_banner_color: #f4f6fc;
   --icon_color: #2405f2;
+  --grey_color: #f4f6fc;
 }
 /* ============================================================================
                                 Navbar css start
@@ -135,7 +136,7 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #navbar_part .view_work a:hover {
   color: var(--white_color);
@@ -155,6 +156,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+  padding-bottom: 10px;
 }
 
 /* ============================================================================
@@ -513,7 +515,9 @@ img {
 /* ============================================================================
                                 FAQ css ends
 =============================================================================== */
-
+#FAQ_part {
+  padding: 10px;
+}
 #FAQ_part .left_text h3 {
   color: var(--secondary_color);
   font-family: var(--poppins);
@@ -531,6 +535,468 @@ img {
   line-height: 32px;
   padding-top: 16px;
 }
+
+/* right accrodion part */
+
+#FAQ_part .accordion_part span {
+  color: var(--icon_color);
+  text-align: center;
+
+  /* Heading 6 */
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-right: 50px;
+}
+
+#FAQ_part .accordion_part button {
+  color: var(--primary_color);
+
+  /* Heading 6 */
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+#FAQ_part .accordion_part .custom_body p {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.7;
+  padding-right: 176px;
+  margin-left: 76px;
+}
 /* ============================================================================
                                 FAQ css ends
+=============================================================================== */
+/* ============================================================================
+                                inquiry css starts
+=============================================================================== */
+#inquiry_part .inquiry_image {
+  position: relative;
+}
+
+#inquiry_part .inquiry_image .overlay_inquiry_part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 101%;
+  height: 100%;
+  background: #1c1e5380;
+}
+#inquiry_part .inquiry_image .overlay_inquiry_part .overlay_text {
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+
+#inquiry_part .overlay_inquiry_part .overlay_text h3 {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+#inquiry_part .overlay_inquiry_part .overlay_text p {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 24px;
+}
+
+/* right side */
+
+#inquiry_part .inquiry_right_part {
+  background-color: var(--primary_color);
+  height: 100%;
+  width: 100%;
+  margin-left: -16px;
+}
+
+#inquiry_part .inquiry_right_part .right_text {
+  padding: 50px 60px;
+}
+
+#inquiry_part .inquiry_right_part .right_text h3 {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 15px;
+}
+
+#inquiry_part .inquiry_right_part .right_text p {
+  color: var(--grey_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+#inquiry_part .inquiry_right_part .right_text input {
+  background-color: var(--primary_color);
+  border-radius: 8px;
+  border: 1.5px solid #ffffff0d;
+  margin-bottom: 15px;
+  padding: 18px 32px;
+  color: var(--grey_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#inquiry_part .inquiry_right_part .right_text a {
+  display: inline-block;
+  color: #1b1c2b;
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 15px 155px;
+  background-color: #fcd980;
+  border-radius: 41px;
+  margin-left: 30px;
+}
+
+#inquiry_part .inquiry_right_part .right_text .input3 {
+  margin-bottom: 35px;
+}
+
+#inquiry_part .inquiry_right_part .right_text .get_in_touch a {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  background-color: transparent;
+  margin-left: -13px;
+  margin-top: 25px;
+}
+/* ============================================================================
+                                inquiry css ends
+=============================================================================== */
+/* ============================================================================
+                                blog css starts
+=============================================================================== */
+#Blog_part {
+  padding: 50px 0;
+}
+#Blog_part .blog_text h3 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+#Blog_part .blog_details h6 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 40px;
+}
+
+#Blog_part .blog_details h5 {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+#Blog_part .blog_details p {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 32px;
+  opacity: 0.7;
+}
+#Blog_part .blog_details a {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+/* ============================================================================
+                                blog css ends
+=============================================================================== */
+/* ============================================================================
+                                Footer css starts
+=============================================================================== */
+
+/* left side */
+
+#footer_part {
+  background-color: var(--primary_color);
+  padding-top: 100px;
+}
+
+#footer_part .footer_left_side p {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 22px;
+  opacity: 0.8;
+}
+
+#footer_part .footer_left_side .footer_contact {
+  margin-top: 86px;
+  background-color: var(--button_color);
+  column-gap: 30px;
+}
+#footer_part .footer_left_side .footer_contact .email ul li a {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 18px;
+}
+#footer_part .footer_left_side .footer_contact .email ul li:last-child a {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#footer_part .footer_left_side .footer_contact .call ul li a {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 17px;
+}
+
+#footer_part .footer_left_side .footer_contact .call ul li:last-child a {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* right side */
+
+#footer_part .footer_right_side {
+  padding-left: 137px;
+}
+
+#footer_part .footer_right_side h3 {
+  color: var(--white_color);
+  font-family: var(--poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 12px;
+}
+
+#footer_part .footer_right_side p {
+  color: var(--grey_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+/* Using selector */
+
+.icons {
+  margin-top: 40px;
+}
+
+.icons a [class="fa-brands fa-facebook-f"] {
+  width: 40px;
+  height: 40px;
+  background-color: #ccd1e0;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  /* transition */
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.icons a [class="fa-brands fa-facebook-f"]:hover {
+  background-color: #7e7eff;
+  color: #00005a;
+
+  /* Transform - Y axis */
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+
+.icons a [class="fa-brands fa-twitter"] {
+  width: 40px;
+  height: 40px;
+  background-color: #ccd1e0;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 15px;
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  /* transition */
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.icons a [class="fa-brands fa-twitter"]:hover {
+  background-color: #7e7eff;
+  color: #00005a;
+
+  /* Transform - Y axis */
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+
+.icons a [class="fa-brands fa-instagram"] {
+  width: 40px;
+  height: 40px;
+  background-color: #ccd1e0;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 15px;
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  /* transition */
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.icons a [class="fa-brands fa-instagram"]:hover {
+  background-color: #f0bbbb;
+  color: #8d0505;
+
+  /* Transform - Y axis */
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+
+.icons a [class="fa-brands fa-linkedin-in"] {
+  width: 40px;
+  height: 40px;
+  background-color: #ccd1e0;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 15px;
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  /* transition */
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.icons a [class="fa-brands fa-linkedin-in"]:hover {
+  background-color: #7e7eff;
+  color: #00005a;
+
+  /* Transform - Y axis */
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+}
+/* ============================================================================
+                                Footer css ends
+=============================================================================== */
+/* ============================================================================
+                                Footer end css starts
+=============================================================================== */
+#Footer_end {
+  padding: 32px 0;
+}
+
+#Footer_end .footer_end_left {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#Footer_end .footer_end_right {
+  margin-left: 115px;
+}
+
+#Footer_end .footer_end_right ul {
+  display: flex;
+  column-gap: 50px;
+}
+
+#Footer_end .footer_end_right ul li a {
+  color: var(--secondary_color);
+  font-family: var(--poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#Footer_end .footer_end_right ul li a:hover {
+  color: goldenrod;
+}
+
+/* ============================================================================
+                                Footer end css ends
 =============================================================================== */
